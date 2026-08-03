@@ -20,10 +20,6 @@
     transform: translate3d(0, -4px, 0);
   }
 }
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
 @keyframes flash {
   50%,
   from,
@@ -35,9 +31,6 @@
     opacity: 0;
   }
 }
-.flash {
-  animation-name: flash;
-}
 @keyframes pulse {
   from,
   to {
@@ -46,9 +39,6 @@
   50% {
     transform: scale3d(1.05, 1.05, 1.05);
   }
-}
-.pulse {
-  animation-name: pulse;
 }
 @keyframes rubberBand {
   from,
@@ -71,9 +61,6 @@
     transform: scale3d(1.05, 0.95, 1);
   }
 }
-.rubberBand {
-  animation-name: rubberBand;
-}
 @keyframes shake {
   from,
   to {
@@ -92,9 +79,6 @@
   80% {
     transform: translate3d(10px, 0, 0);
   }
-}
-.shake {
-  animation-name: shake;
 }
 @keyframes headShake {
   0% {
@@ -116,10 +100,6 @@
     transform: translateX(0);
   }
 }
-.headShake {
-  animation-timing-function: ease-in-out;
-  animation-name: headShake;
-}
 @keyframes swing {
   20% {
     transform: rotate3d(0, 0, 1, 15deg);
@@ -136,10 +116,6 @@
   to {
     transform: rotate3d(0, 0, 1, 0deg);
   }
-}
-.swing {
-  transform-origin: top center;
-  animation-name: swing;
 }
 @keyframes tada {
   from,
@@ -162,9 +138,6 @@
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
 }
-.tada {
-  animation-name: tada;
-}
 @keyframes wobble {
   from,
   to {
@@ -185,9 +158,6 @@
   75% {
     transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
   }
-}
-.wobble {
-  animation-name: wobble;
 }
 @keyframes jello {
   11.1%,
@@ -216,10 +186,6 @@
   88.8% {
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
   }
-}
-.jello {
-  animation-name: jello;
-  transform-origin: center;
 }
 @keyframes bounceIn {
   20%,
@@ -252,9 +218,6 @@
     transform: scale3d(1, 1, 1);
   }
 }
-.bounceIn {
-  animation-name: bounceIn;
-}
 @keyframes bounceInDown {
   60%,
   75%,
@@ -280,9 +243,6 @@
   to {
     transform: none;
   }
-}
-.bounceInDown {
-  animation-name: bounceInDown;
 }
 @keyframes bounceInLeft {
   60%,
@@ -310,9 +270,6 @@
     transform: none;
   }
 }
-.bounceInLeft {
-  animation-name: bounceInLeft;
-}
 @keyframes bounceInRight {
   60%,
   75%,
@@ -338,9 +295,6 @@
   to {
     transform: none;
   }
-}
-.bounceInRight {
-  animation-name: bounceInRight;
 }
 @keyframes bounceInUp {
   60%,
@@ -368,9 +322,6 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.bounceInUp {
-  animation-name: bounceInUp;
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -378,9 +329,6 @@
   to {
     opacity: 1;
   }
-}
-.fadeIn {
-  animation-name: fadeIn;
 }
 @keyframes fadeInDown {
   from {
@@ -392,9 +340,6 @@
     transform: none;
   }
 }
-.fadeInDown {
-  animation-name: fadeInDown;
-}
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -404,9 +349,6 @@
     opacity: 1;
     transform: none;
   }
-}
-.fadeInLeft {
-  animation-name: fadeInLeft;
 }
 @keyframes fadeInRight {
   from {
@@ -418,9 +360,6 @@
     transform: none;
   }
 }
-.fadeInRight {
-  animation-name: fadeInRight;
-}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -430,9 +369,6 @@
     opacity: 1;
     transform: none;
   }
-}
-.fadeInUp {
-  animation-name: fadeInUp;
 }
 @keyframes lightSpeedIn {
   from {
@@ -452,10 +388,6 @@
     opacity: 1;
   }
 }
-.lightSpeedIn {
-  animation-name: lightSpeedIn;
-  animation-timing-function: ease-out;
-}
 @keyframes rotateIn {
   from {
     transform-origin: center;
@@ -467,9 +399,6 @@
     transform: none;
     opacity: 1;
   }
-}
-.rotateIn {
-  animation-name: rotateIn;
 }
 @keyframes rotateInDownLeft {
   from {
@@ -483,9 +412,6 @@
     opacity: 1;
   }
 }
-.rotateInDownLeft {
-  animation-name: rotateInDownLeft;
-}
 @keyframes rotateInDownRight {
   from {
     transform-origin: right bottom;
@@ -497,9 +423,6 @@
     transform: none;
     opacity: 1;
   }
-}
-.rotateInDownRight {
-  animation-name: rotateInDownRight;
 }
 @keyframes rotateInUpLeft {
   from {
@@ -513,9 +436,6 @@
     opacity: 1;
   }
 }
-.rotateInUpLeft {
-  animation-name: rotateInUpLeft;
-}
 @keyframes rotateInUpRight {
   from {
     transform-origin: right bottom;
@@ -528,9 +448,6 @@
     opacity: 1;
   }
 }
-.rotateInUpRight {
-  animation-name: rotateInUpRight;
-}
 @keyframes rollIn {
   from {
     opacity: 0;
@@ -541,9 +458,6 @@
     transform: none;
   }
 }
-.rollIn {
-  animation-name: rollIn;
-}
 @keyframes zoomIn {
   from {
     opacity: 0;
@@ -552,9 +466,6 @@
   50% {
     opacity: 1;
   }
-}
-.zoomIn {
-  animation-name: zoomIn;
 }
 @keyframes zoomInDown {
   from {
@@ -568,9 +479,6 @@
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-.zoomInDown {
-  animation-name: zoomInDown;
-}
 @keyframes zoomInLeft {
   from {
     opacity: 0;
@@ -582,9 +490,6 @@
     transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
-}
-.zoomInLeft {
-  animation-name: zoomInLeft;
 }
 @keyframes zoomInRight {
   from {
@@ -598,9 +503,6 @@
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-.zoomInRight {
-  animation-name: zoomInRight;
-}
 @keyframes zoomInUp {
   from {
     opacity: 0;
@@ -613,9 +515,6 @@
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
-.zoomInUp {
-  animation-name: zoomInUp;
-}
 @keyframes slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
@@ -624,9 +523,6 @@
   to {
     transform: translate3d(0, 0, 0);
   }
-}
-.slideInDown {
-  animation-name: slideInDown;
 }
 @keyframes slideInLeft {
   from {
@@ -637,9 +533,6 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.slideInLeft {
-  animation-name: slideInLeft;
-}
 @keyframes slideInRight {
   from {
     transform: translate3d(100%, 0, 0);
@@ -649,9 +542,6 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.slideInRight {
-  animation-name: slideInRight;
-}
 @keyframes slideInUp {
   from {
     transform: translate3d(0, 100%, 0);
@@ -660,18 +550,6 @@
   to {
     transform: translate3d(0, 0, 0);
   }
-}
-.slideInUp {
-  animation-name: slideInUp;
-}
-.elementor-animation-grow {
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
-.elementor-animation-grow:active,
-.elementor-animation-grow:focus,
-.elementor-animation-grow:hover {
-  transform: scale(1.1);
 }
 .elementor-animation-shrink {
   transition-duration: 0.3s;
@@ -690,41 +568,15 @@
     transform: scale(0.9);
   }
 }
-.elementor-animation-pulse:active,
-.elementor-animation-pulse:focus,
-.elementor-animation-pulse:hover {
-  animation-name: elementor-animation-pulse;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
 @keyframes elementor-animation-pulse-grow {
   to {
     transform: scale(1.1);
   }
 }
-.elementor-animation-pulse-grow:active,
-.elementor-animation-pulse-grow:focus,
-.elementor-animation-pulse-grow:hover {
-  animation-name: elementor-animation-pulse-grow;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 @keyframes elementor-animation-pulse-shrink {
   to {
     transform: scale(0.9);
   }
-}
-.elementor-animation-pulse-shrink:active,
-.elementor-animation-pulse-shrink:focus,
-.elementor-animation-pulse-shrink:hover {
-  animation-name: elementor-animation-pulse-shrink;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 @keyframes elementor-animation-push {
   50% {
@@ -734,82 +586,10 @@
     transform: scale(1);
   }
 }
-.elementor-animation-push:active,
-.elementor-animation-push:focus,
-.elementor-animation-push:hover {
-  animation-name: elementor-animation-push;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
 @keyframes elementor-animation-pop {
   50% {
     transform: scale(1.2);
   }
-}
-.elementor-animation-pop:active,
-.elementor-animation-pop:focus,
-.elementor-animation-pop:hover {
-  animation-name: elementor-animation-pop;
-  animation-duration: 0.3s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-.elementor-animation-bounce-in {
-  transition-duration: 0.5s;
-}
-.elementor-animation-bounce-in:active,
-.elementor-animation-bounce-in:focus,
-.elementor-animation-bounce-in:hover {
-  transform: scale(1.2);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
-.elementor-animation-bounce-out {
-  transition-duration: 0.5s;
-}
-.elementor-animation-bounce-out:active,
-.elementor-animation-bounce-out:focus,
-.elementor-animation-bounce-out:hover {
-  transform: scale(0.8);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
-.elementor-animation-rotate {
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
-.elementor-animation-rotate:active,
-.elementor-animation-rotate:focus,
-.elementor-animation-rotate:hover {
-  transform: rotate(4deg);
-}
-.elementor-animation-grow-rotate {
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
-.elementor-animation-grow-rotate:active,
-.elementor-animation-grow-rotate:focus,
-.elementor-animation-grow-rotate:hover {
-  transform: scale(1.1) rotate(4deg);
-}
-.elementor-animation-float {
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-.elementor-animation-float:active,
-.elementor-animation-float:focus,
-.elementor-animation-float:hover {
-  transform: translateY(-8px);
-}
-.elementor-animation-sink {
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-.elementor-animation-sink:active,
-.elementor-animation-sink:focus,
-.elementor-animation-sink:hover {
-  transform: translateY(8px);
 }
 @keyframes elementor-animation-bob {
   0% {
@@ -827,17 +607,6 @@
     transform: translateY(-8px);
   }
 }
-.elementor-animation-bob:active,
-.elementor-animation-bob:focus,
-.elementor-animation-bob:hover {
-  animation-name: elementor-animation-bob-float, elementor-animation-bob;
-  animation-duration: 0.3s, 1.5s;
-  animation-delay: 0s, 0.3s;
-  animation-timing-function: ease-out, ease-in-out;
-  animation-iteration-count: 1, infinite;
-  animation-fill-mode: forwards;
-  animation-direction: normal, alternate;
-}
 @keyframes elementor-animation-hang {
   0% {
     transform: translateY(8px);
@@ -853,46 +622,6 @@
   100% {
     transform: translateY(8px);
   }
-}
-.elementor-animation-hang:active,
-.elementor-animation-hang:focus,
-.elementor-animation-hang:hover {
-  animation-name: elementor-animation-hang-sink, elementor-animation-hang;
-  animation-duration: 0.3s, 1.5s;
-  animation-delay: 0s, 0.3s;
-  animation-timing-function: ease-out, ease-in-out;
-  animation-iteration-count: 1, infinite;
-  animation-fill-mode: forwards;
-  animation-direction: normal, alternate;
-}
-.elementor-animation-skew {
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
-.elementor-animation-skew:active,
-.elementor-animation-skew:focus,
-.elementor-animation-skew:hover {
-  transform: skew(-10deg);
-}
-.elementor-animation-skew-forward {
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transform-origin: 0 100%;
-}
-.elementor-animation-skew-forward:active,
-.elementor-animation-skew-forward:focus,
-.elementor-animation-skew-forward:hover {
-  transform: skew(-10deg);
-}
-.elementor-animation-skew-backward {
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transform-origin: 0 100%;
-}
-.elementor-animation-skew-backward:active,
-.elementor-animation-skew-backward:focus,
-.elementor-animation-skew-backward:hover {
-  transform: skew(10deg);
 }
 @keyframes elementor-animation-wobble-vertical {
   16.65% {
@@ -914,14 +643,6 @@
     transform: translateY(0);
   }
 }
-.elementor-animation-wobble-vertical:active,
-.elementor-animation-wobble-vertical:focus,
-.elementor-animation-wobble-vertical:hover {
-  animation-name: elementor-animation-wobble-vertical;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
 @keyframes elementor-animation-wobble-horizontal {
   16.65% {
     transform: translateX(8px);
@@ -941,14 +662,6 @@
   100% {
     transform: translateX(0);
   }
-}
-.elementor-animation-wobble-horizontal:active,
-.elementor-animation-wobble-horizontal:focus,
-.elementor-animation-wobble-horizontal:hover {
-  animation-name: elementor-animation-wobble-horizontal;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
 }
 @keyframes elementor-animation-wobble-to-bottom-right {
   16.65% {
@@ -970,14 +683,6 @@
     transform: translate(0, 0);
   }
 }
-.elementor-animation-wobble-to-bottom-right:active,
-.elementor-animation-wobble-to-bottom-right:focus,
-.elementor-animation-wobble-to-bottom-right:hover {
-  animation-name: elementor-animation-wobble-to-bottom-right;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
 @keyframes elementor-animation-wobble-to-top-right {
   16.65% {
     transform: translate(8px, -8px);
@@ -997,14 +702,6 @@
   100% {
     transform: translate(0, 0);
   }
-}
-.elementor-animation-wobble-to-top-right:active,
-.elementor-animation-wobble-to-top-right:focus,
-.elementor-animation-wobble-to-top-right:hover {
-  animation-name: elementor-animation-wobble-to-top-right;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
 }
 @keyframes elementor-animation-wobble-top {
   16.65% {
@@ -1026,17 +723,6 @@
     transform: skew(0);
   }
 }
-.elementor-animation-wobble-top {
-  transform-origin: 0 100%;
-}
-.elementor-animation-wobble-top:active,
-.elementor-animation-wobble-top:focus,
-.elementor-animation-wobble-top:hover {
-  animation-name: elementor-animation-wobble-top;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
 @keyframes elementor-animation-wobble-bottom {
   16.65% {
     transform: skew(-12deg);
@@ -1056,17 +742,6 @@
   100% {
     transform: skew(0);
   }
-}
-.elementor-animation-wobble-bottom {
-  transform-origin: 100% 0;
-}
-.elementor-animation-wobble-bottom:active,
-.elementor-animation-wobble-bottom:focus,
-.elementor-animation-wobble-bottom:hover {
-  animation-name: elementor-animation-wobble-bottom;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
 }
 @keyframes elementor-animation-wobble-skew {
   16.65% {
@@ -1088,14 +763,6 @@
     transform: skew(0);
   }
 }
-.elementor-animation-wobble-skew:active,
-.elementor-animation-wobble-skew:focus,
-.elementor-animation-wobble-skew:hover {
-  animation-name: elementor-animation-wobble-skew;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
 @keyframes elementor-animation-buzz {
   50% {
     transform: translateX(3px) rotate(2deg);
@@ -1103,14 +770,6 @@
   100% {
     transform: translateX(-3px) rotate(-2deg);
   }
-}
-.elementor-animation-buzz:active,
-.elementor-animation-buzz:focus,
-.elementor-animation-buzz:hover {
-  animation-name: elementor-animation-buzz;
-  animation-duration: 0.15s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
 @keyframes elementor-animation-buzz-out {
   10% {
@@ -1143,12 +802,4 @@
   100% {
     transform: translateX(-1px) rotate(0);
   }
-}
-.elementor-animation-buzz-out:active,
-.elementor-animation-buzz-out:focus,
-.elementor-animation-buzz-out:hover {
-  animation-name: elementor-animation-buzz-out;
-  animation-duration: 0.75s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
 }

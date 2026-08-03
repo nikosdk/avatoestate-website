@@ -6,11 +6,7 @@
 .elementor-285
   .elementor-element.elementor-element-a5370c8:not(
     .elementor-motion-effects-element-type-background
-  ),
-.elementor-285
-  .elementor-element.elementor-element-a5370c8
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  ) {
   background-color: #f3f3f3;
 }
 .elementor-285 .elementor-element.elementor-element-a5370c8 {
@@ -37,11 +33,7 @@
 .elementor-285
   .elementor-element.elementor-element-dd6cbfc:not(
     .elementor-motion-effects-element-type-background
-  ),
-.elementor-285
-  .elementor-element.elementor-element-dd6cbfc
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  ) {
   background-color: #f3f3f3;
 }
 .elementor-285 .elementor-element.elementor-element-dd6cbfc {
@@ -64,12 +56,7 @@
   .elementor-element.elementor-element-5cdc2cb:not(
     .elementor-motion-effects-element-type-background
   )
-  > .elementor-column-wrap,
-.elementor-285
-  .elementor-element.elementor-element-5cdc2cb
-  > .elementor-column-wrap
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  > .elementor-column-wrap {
   background-color: #f3f3f3;
 }
 .elementor-285
@@ -93,11 +80,7 @@
 .elementor-285
   .elementor-element.elementor-element-509265a:not(
     .elementor-motion-effects-element-type-background
-  ),
-.elementor-285
-  .elementor-element.elementor-element-509265a
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  ) {
   background-color: #ffffff;
 }
 .elementor-285 .elementor-element.elementor-element-509265a {
@@ -115,30 +98,13 @@
     border-radius 0.3s,
     opacity 0.3s;
 }
-.elementor-285
-  .elementor-element.elementor-element-ba7d2af.elementor-view-stacked
-  .elementor-icon {
-  background-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-ba7d2af.elementor-view-framed
-  .elementor-icon,
+
 .elementor-285
   .elementor-element.elementor-element-ba7d2af.elementor-view-default
   .elementor-icon {
   fill: #718048;
   color: #718048;
   border-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-ba7d2af.elementor-position-right
-  .elementor-icon-box-icon {
-  margin-left: 20px;
-}
-.elementor-285
-  .elementor-element.elementor-element-ba7d2af.elementor-position-left
-  .elementor-icon-box-icon {
-  margin-right: 20px;
 }
 .elementor-285
   .elementor-element.elementor-element-ba7d2af.elementor-position-top
@@ -198,30 +164,13 @@
   ):not(:last-child):not(.elementor-absolute) {
   margin-bottom: 26px;
 }
-.elementor-285
-  .elementor-element.elementor-element-0ebed64.elementor-view-stacked
-  .elementor-icon {
-  background-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-0ebed64.elementor-view-framed
-  .elementor-icon,
+
 .elementor-285
   .elementor-element.elementor-element-0ebed64.elementor-view-default
   .elementor-icon {
   fill: #718048;
   color: #718048;
   border-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-0ebed64.elementor-position-right
-  .elementor-icon-box-icon {
-  margin-left: 20px;
-}
-.elementor-285
-  .elementor-element.elementor-element-0ebed64.elementor-position-left
-  .elementor-icon-box-icon {
-  margin-right: 20px;
 }
 .elementor-285
   .elementor-element.elementor-element-0ebed64.elementor-position-top
@@ -272,30 +221,13 @@
   padding: 54px 45px 55px 45px;
   background-color: #f3f3f3;
 }
-.elementor-285
-  .elementor-element.elementor-element-228babc.elementor-view-stacked
-  .elementor-icon {
-  background-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-228babc.elementor-view-framed
-  .elementor-icon,
+
 .elementor-285
   .elementor-element.elementor-element-228babc.elementor-view-default
   .elementor-icon {
   fill: #718048;
   color: #718048;
   border-color: #718048;
-}
-.elementor-285
-  .elementor-element.elementor-element-228babc.elementor-position-right
-  .elementor-icon-box-icon {
-  margin-left: 20px;
-}
-.elementor-285
-  .elementor-element.elementor-element-228babc.elementor-position-left
-  .elementor-icon-box-icon {
-  margin-right: 20px;
 }
 .elementor-285
   .elementor-element.elementor-element-228babc.elementor-position-top

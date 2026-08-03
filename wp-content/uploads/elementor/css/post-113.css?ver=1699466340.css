@@ -1,11 +1,7 @@
 .elementor-113
   .elementor-element.elementor-element-6353b0a:not(
     .elementor-motion-effects-element-type-background
-  ),
-.elementor-113
-  .elementor-element.elementor-element-6353b0a
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  ) {
   background-image: url("../../2019/11/IMG_0782-2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -42,12 +38,6 @@
 }
 .elementor-113 .elementor-element.elementor-element-89e6e9d {
   padding: 0px 0px 0px 0px;
-}
-.elementor-bc-flex-widget
-  .elementor-113
-  .elementor-element.elementor-element-d3ca77b.elementor-column
-  .elementor-column-wrap {
-  align-items: center;
 }
 .elementor-113
   .elementor-element.elementor-element-d3ca77b.elementor-column.elementor-element[data-element_type="column"]
@@ -120,12 +110,6 @@
   margin: 0 -10px -10px 0;
 }
 .elementor-113
-  .elementor-element.elementor-element-b0e849f
-  .gallery-item
-  .gallery-caption {
-  text-align: center;
-}
-.elementor-113
   .elementor-element.elementor-element-7ab795c
   > .elementor-column-wrap
   > .elementor-widget-wrap
@@ -138,12 +122,7 @@
   .elementor-element.elementor-element-7ab795c:not(
     .elementor-motion-effects-element-type-background
   )
-  > .elementor-column-wrap,
-.elementor-113
-  .elementor-element.elementor-element-7ab795c
-  > .elementor-column-wrap
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  > .elementor-column-wrap {
   background-image: url("../../2019/04/04.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -173,12 +152,6 @@
   img {
   transition-duration: 0.3s;
 }
-.elementor-bc-flex-widget
-  .elementor-113
-  .elementor-element.elementor-element-5499779.elementor-column
-  .elementor-column-wrap {
-  align-items: center;
-}
 .elementor-113
   .elementor-element.elementor-element-5499779.elementor-column.elementor-element[data-element_type="column"]
   > .elementor-column-wrap.elementor-element-populated
@@ -190,12 +163,7 @@
   .elementor-element.elementor-element-5499779:not(
     .elementor-motion-effects-element-type-background
   )
-  > .elementor-column-wrap,
-.elementor-113
-  .elementor-element.elementor-element-5499779
-  > .elementor-column-wrap
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
+  > .elementor-column-wrap {
   background-color: #f3f3f3;
 }
 .elementor-113
