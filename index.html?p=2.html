@@ -230,21 +230,7 @@ var log_object = {"ajax_url":"https://avatoestate.com/wp-admin/admin-ajax.php"};
 		</div>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-6742189 elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6742189" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-								</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<h3 class="elementor-icon-box-title">
-					<span ><span style="font-size: 16px; font-style: normal; font-weight: 400;">email: </span>info@<span style="font-size: 20px; font-style: normal; font-weight: 700;">avatoestate</span>.com</span>
-				</h3>
-							</div>
-		</div>
-				</div>
-				</div>
+
 				<div class="elementor-element elementor-element-97b88ae elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="97b88ae" data-element_type="widget" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-social-icons-wrapper elementor-grid">
@@ -278,7 +264,31 @@ var log_object = {"ajax_url":"https://avatoestate.com/wp-admin/admin-ajax.php"};
 				</div>
 				<div class="elementor-element elementor-element-64a6ada elementor-widget elementor-widget-content_form_contact" data-id="64a6ada" data-element_type="widget" data-widget_type="content_form_contact.default">
 				<div class="elementor-widget-container">
-			<form action="https://avatoestate.com/wp-admin/admin-post.php" method="post" name="content-form-64a6ada" id="content-form-64a6ada" class="ti-cf-module content-form content-form-contact content_form_contact"><input type="hidden" id="_wpnonce_contact" name="_wpnonce_contact" value="0fadbc4007" /><input type="hidden" name="_wp_http_referer" value="/contact/" /><input type="hidden" name="action" value="content_form_submit" /><input type="hidden" name="form-type" value="contact" /><input type="hidden" name="form-builder" value="elementor" /><input type="hidden" name="post-id" value="2" /><input type="hidden" name="form-id" value="64a6ada" /><fieldset class="content-form-field-text elementor-column elementor-col-50"><label for="data[64a6ada][name]" >Name<span class="required-mark"> *</span></label><input type="text" name="data[64a6ada][name]" id="data[64a6ada][name]" required="required"  placeholder=""></fieldset><fieldset class="content-form-field-email elementor-column elementor-col-50"><label for="data[64a6ada][email]" >Email<span class="required-mark"> *</span></label><input type="text" name="data[64a6ada][email]" id="data[64a6ada][email]" required="required"  placeholder=""></fieldset><fieldset class="content-form-field-number elementor-column elementor-col-50"><label for="data[64a6ada][phone]" >Phone</label><input type="text" name="data[64a6ada][phone]" id="data[64a6ada][phone]"   placeholder=""></fieldset><fieldset class="content-form-field-textarea elementor-column elementor-col-100"><label for="data[64a6ada][message]" >Message<span class="required-mark"> *</span></label><textarea name="data[64a6ada][message]" id="data[64a6ada][message]"  required="required" placeholder="" cols="30" rows="5"></textarea></fieldset><fieldset class="submit-form contact"><button type="submit" name="submit"  value="submit-contact-64a6ada" class="">Submit</button></fieldset></form>		</div>
+			<form action="https://api.web3forms.com/submit" method="POST" id="content-form-64a6ada" class="ti-cf-module content-form content-form-contact content_form_contact">
+				<input type="hidden" name="access_key" value="ce5d5a6a-dbdf-4059-990d-35b25b4c50b8" />
+				<input type="hidden" name="subject" value="New Contact from Avato Estate Website" />
+				<input type="hidden" name="redirect" value="https://nikosdk.github.io/avatoestate-website/" />
+
+				<fieldset class="content-form-field-text elementor-column elementor-col-50">
+					<label for="name">Name<span class="required-mark"> *</span></label>
+					<input type="text" name="name" id="name" required="required" placeholder="">
+				</fieldset>
+				<fieldset class="content-form-field-email elementor-column elementor-col-50">
+					<label for="email">Email<span class="required-mark"> *</span></label>
+					<input type="email" name="email" id="email" required="required" placeholder="">
+				</fieldset>
+				<fieldset class="content-form-field-number elementor-column elementor-col-50">
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" id="phone" placeholder="">
+				</fieldset>
+				<fieldset class="content-form-field-textarea elementor-column elementor-col-100">
+					<label for="message">Message<span class="required-mark"> *</span></label>
+					<textarea name="message" id="message" required="required" placeholder="" cols="30" rows="5"></textarea>
+				</fieldset>
+				<fieldset class="submit-form contact">
+					<button type="submit" class="">Submit</button>
+				</fieldset>
+			</form>		</div>
 				</div>
 						</div>
 					</div>
