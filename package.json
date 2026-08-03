@@ -1,0 +1,24 @@
+{
+  "name": "avatoestate-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nikosdk@github.com/nikosdk/avatoestate-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikosdk/avatoestate-website/issues"
+  },
+  "homepage": "https://github.com/nikosdk/avatoestate-website#readme",
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "purgecss": "^8.0.0"
+  }
+}
